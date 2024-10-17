@@ -46,3 +46,52 @@ function changeEmojiColor(elem){
     const b = randInt(0, 255);
     elem.style.fill = 'rgb(' + r + ',' + g +',' + b +')';
 }
+
+
+function a1 (elem) {
+    document.getElementById("adormir").style.fill = "black";
+}
+
+function a2 (elem) {
+    document.getElementById("adormir").style.fill = "green";
+}
+    function a3(elem){
+    document.getElementById("adormir").innerHTML = "hola";
+}
+
+
+
+
+
+
+function hover(elem){
+    document.getElementById("gay").style.fill = "black";
+}
+
+function xd (elem){
+    document.getElementById("gay").style.fill = "grey";
+}
+function xdd(elem){
+    document.getElementById("gay").style.backgroundImage = "url('ojos.jpg')";
+}
+
+
+
+
+
+
+
+function b1 (elem) {
+    document.getElementById("hola").style.fill = "black";
+}
+    
+function b2 (elem) {
+    document.getElementById("hola").style.fill = "pink";
+}
+    
+    
+
+
+
+
+

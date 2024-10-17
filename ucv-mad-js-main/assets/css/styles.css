@@ -91,13 +91,52 @@ border: solid 1 px white;
 }
 
 
-
-
-
 .h-container>#clicker-container>svg{
     margin: auto .3vw;
     transition-duration: .3s;
 }
+
+
+
+
+.botones3{
+
+    margin:100px;
+    transition-duration: .3s;
+
+
+
+}
+.botones3>#fill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1vh;
+    margin-right: .6vw;
+    padding: 1vh.7vw;
+    border-radius: 50px;
+    border: solid 1 px white;
+    }
+
+
+
+
+
+
+
+
+
+
+#adomrir>a3{
+    font-size: 100px;
+    color: pink;
+    margin: auto;
+}
+
+
 
 
 
