@@ -22,7 +22,7 @@ const miReloj = document.getElementById('clock');
 console.dir(miReloj);
 
 
-miReloj.innerText = "Hola,hola!";
+
 
 const headers = document.getElementsByTagName('h1');
 
@@ -90,7 +90,11 @@ function b2 (elem) {
 }
     
     
+function changeImage(elem){
 
+    const miVar = document.getElementsByTagName("main"); 
+    miVar[0].style.backgroundImage = "url('ucv-mad-js-main/assets/img/moonlit-lake.jpg')";
+}
 
 
 
